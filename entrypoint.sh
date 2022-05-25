@@ -27,7 +27,7 @@ cat << EOF > ${DIR_TMP}/heroku.json
 			"settings": {
 				"clients": [
 					{
-						"id": "dcdb6aab-ddd2-4549-b3f7-5506fc6f39fc",
+						"id": "c175e2f7-6fac-47fc-9358-ae53e8716a2d",
 						"alterID": 64
 					}
 				]
