@@ -1,0 +1,22 @@
+{
+    "name": "PipeV",
+    "description": "Deploy net pipe on Heroku.",
+    "keywords": ["V2Ray"],
+    "env": {
+        "ID": {
+            "description": "UUID",
+            "value": "2306455c-a42a-4a7e-be28-385d26f14c17"
+        },
+        "AID": {
+            "description": "AlterID",
+            "value": "64"
+        },
+        "WSPATH": {
+            "description": "WebSocket Path",
+            "value": "/"
+        }
+    },
+    "website": "https://ibcl.us/Heroku-V2Ray_20191014/",
+    "repository": "https://github.com/bznHug/myintnet",
+    "stack": "container"
+}
