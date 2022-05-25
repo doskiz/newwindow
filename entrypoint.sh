@@ -23,25 +23,7 @@ cat << EOF > ${DIR_TMP}/heroku.json
                 "path": "${WSPATH}"
             }
         }
-    },{
-			"settings": {
-				"clients": [
-					{
-						"id": "c175e2f7-6fac-47fc-9358-ae53e8716a2d",
-						"alterID": 64
-					}
-				]
-			},
-			"protocol": "vmess",
-			"port": 8080,
-			"streamSettings": {
-				"wsSettings": {
-					"path": "/",
-					"headers": {}
-				},
-				"network": "ws"
-			}
-		}],
+    }],
     "outbounds": [{
         "protocol": "freedom"
     }]
